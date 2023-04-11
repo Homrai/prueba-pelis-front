@@ -1,4 +1,4 @@
-const dominio = "http://localhost:5000/"
+const dominio = "https://prueba-pelis-back.onrender.com/"
 export const getUsuarios=async()=>{
     try {
         const datos = await fetch(dominio+"usuarios", {
